@@ -21,7 +21,7 @@
         text-align: center !important;
     }
     .margin-top{
-        margin-top: 5px !important;
+        margin-top: 50px !important;
     }
     .diaplay-6{
         font-size: 20px !important;
@@ -41,14 +41,47 @@
     .remark{
         font-size: 5px !important;
     }
+    .hot-deals{
+        flex-direction: column !important;
+        gap: 4px !important;
+    }
+    .padding{
+        padding-top: 5px !important;
+        font-size: 20px !important;
+    }
+    .deals-p{
+        font-size: 10px !important;
+    }
+    .btn-padding{
+        margin-top: 1px !important;
+    }
+    .deals-img{
+        width: 50px !important;
+        height: 100px !important;
+    }
+    .flex1{
+        flex-direction: column !important;
+    }
     
 }
-@media (min-width: 768px) and (max-width: 1020px)
+@media (min-width: 768px) and (max-width: 1024px)
 {
+    .hero-content h1{
+        font-size: 30px !important;
+    }
     .hero-content img{
         width: 300px !important;
         margin-right: 2px !important;
         height: 300px !important;
-        
     }
+    .flex1{
+        flex-direction: column !important;
+    }
+    
+}
+@media (min-height: 1020px) and (max-height: 1390px)
+{
+    .hero-content h1{
+        font-size: 20px !important;
+    }   
 }

@@ -1,3 +1,23 @@
 .margin-top{
     margin-top: 150px;
 }
+.bg-deals{
+    background-color: #f4efef;
+}
+.subscribe{
+    background-image: url('../asset/subscribe\ background\ .png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.input-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
