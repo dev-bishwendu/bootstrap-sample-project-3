@@ -1,0 +1,14 @@
+@media (min-width: 1px) and (max-width: 767px)
+{
+    nav a{
+        display: none;
+    }
+    .hero-content{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+        flex-direction: column-reverse;
+    }
+}
