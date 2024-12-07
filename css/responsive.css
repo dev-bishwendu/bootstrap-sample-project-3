@@ -11,4 +11,9 @@
         padding: 20px;
         flex-direction: column-reverse;
     }
+    .hero-content img{
+        width: 200px;
+        margin-inline: 10px;
+        height: 250px;
+    }
 }
