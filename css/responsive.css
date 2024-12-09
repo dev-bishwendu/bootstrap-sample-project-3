@@ -1,5 +1,8 @@
 @media (min-width: 1px) and (max-width: 767px)
 {
+    h1{
+        font-size: 20px !important;
+    }
     nav a{
         display: none;
     }
@@ -24,16 +27,12 @@
         margin-top: 50px !important;
     }
     .diaplay-6{
-        font-size: 20px !important;
+        font-size: 15px !important;
     }
     .card{
         width: 5em !important;
         height: 10em !important;
         gap: 0px !important;
-    }
-    .card img{
-        width: 100% !important;
-        height: 100% !important;
     }
     .card h5{
         font-size: 5px !important;
@@ -42,7 +41,7 @@
         font-size: 5px !important;
     }
     .hot-deals{
-        flex-direction: column !important;
+        flex-direction: column-reverse !important;
         gap: 4px !important;
     }
     .padding{
@@ -55,13 +54,14 @@
     .btn-padding{
         margin-top: 1px !important;
     }
-    .deals-img{
-        width: 50px !important;
-        height: 100px !important;
-    }
     .flex1{
         flex-direction: column !important;
     }
+    .deals-img img{
+        width: 70px !important;
+        height: 90px !important;
+    }
+    
     
 }
 @media (min-width: 768px) and (max-width: 1024px)
@@ -77,11 +77,19 @@
     .flex1{
         flex-direction: column !important;
     }
+    .hot-deals{
+        flex-direction: column-reverse !important;
+        gap: 4px !important;
+    }
     
 }
 @media (min-height: 1020px) and (max-height: 1390px)
 {
     .hero-content h1{
         font-size: 20px !important;
+    }
+    .hot-deals{
+        flex-direction: column-reverse !important;
+        gap: 4px !important;
     }   
 }
