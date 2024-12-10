@@ -30,9 +30,18 @@
         font-size: 15px !important;
     }
     .card{
-        width: 5em !important;
-        height: 10em !important;
+        width: 7em !important;
+        height: 8em !important;
         gap: 0px !important;
+    }
+    .px-3{
+        height: 70% !important;
+        padding-top: 3px !important;
+    }
+    .py-3{
+        padding-top: 3px !important;
+        padding-bottom: 3px !important;
+        height: 70% !important;
     }
     .card h5{
         font-size: 5px !important;
